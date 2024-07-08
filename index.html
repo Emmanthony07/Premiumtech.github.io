@@ -3,57 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Store</title>
+    <title>Goods and Services</title>
     <style>
-        /* Add some basic styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
         }
-        .product {
-            border: 1px solid #ccc;
-            margin-bottom: 20px;
-            padding: 10px;
+        .item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 1rem;
+            width: 300px;
+            text-align: center;
+            padding: 1rem;
         }
-        .product img {
+        .item img {
             max-width: 100%;
-            height: auto;
+            border-radius: 5px;
+        }
+        .item h3 {
+            color: #333;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .item p {
+            color: #666;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>PREMIUMTECH</h1>
+    </header>
     <div class="container">
-        <h1>Welcome to Our Online Store!</h1>
-        <div class="product">
-            <h2>Product 1</h2>
-            <img src="product2.jpg" alt="Product 1">
-            <p>Description of Product 1.</p>
-            <p>Price: $50</p>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz5xgGA9tqw8pUMpM1r06WpQKeHn85ebQl83oa-SCcZbaWHf0zazcoM7p5&s=10.jpg" alt="Product 1">
+            <h3>ART</h3>
+            <p>for free Graphic desining.
+              <a href="https://www.fiverr.com/" target="_blank">View now</a>
+            </p>
         </div>
-        <div class="product">
-            <h2>Product 2</h2>
-            <img "product2.jpg 2">
-            <p>Description of Product 2.</p>
-            <p>Price: $70</p>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjduO_zvEUYqehTtmQ2OsMVByo9CNXJ4j1Uz5CsrRXxWRSRFngH8JsPE0&s=10.jpg" alt="Service 1">
+            <h3>Affordable products</h3>
+            <p>for products
+              <a href="https://www.fiverr.com/" target="_blank">View now</a>
+            </p>
         </div>
-        <!-- Add more products as needed -->
-
-        <h2>Links to Other Websites</h2>
-        <ul>
-            <li><a href="https://example.com">Example Website</a></li>
-            <li><a href="https://anotherexample.com">Another Example Website</a></li>
-            <!-- Add more links as needed -->
-        </ul>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Q_SK85E-hyljWSY7SHE-b8UU1zJzpzO1cg&usqp=CAU.jpg" alt="Product 2">
+            <h3>Web Design</h3>
+            <p>For web design, coding and app design
+              <a href="https://www.fiverr.com/" target="_blank">View now</a>
+            </p>
+        </div>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaFDI0VclKmLt7mKRoMs4y_uny7uLGB8K8bQ&usqp=CAU.jpg" alt="Service 2">
+            <h3>Photo Video and Audio editing</h3>
+            <p>For editing of video, audio and pictures
+               <a href="https://www.fiverr.com/" target="_blank">View now</a>
+            </p>
+        </div>
     </div>
-
-    <script>
-        // You can add JavaScript functionality here if needed
-    </script>
 </body>
 </html>
